@@ -6,8 +6,8 @@ import os
 load_dotenv()
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
-LANGFLOW_ID = ""
-FLOW_ID = ""
+LANGFLOW_ID = "c3d743ea-a3cc-4f20-981b-727cf67d1012"
+FLOW_ID = "959da673-e784-469d-84bb-0ab179650a95"
 APPLICATION_TOKEN = os.environ.get("APP_TOKEN")
 ENDPOINT = "social_tantradnya" # The endpoint name of the flow
 
