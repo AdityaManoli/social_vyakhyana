@@ -17,7 +17,7 @@ To install the required dependencies for the project, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-
+**NOTE**: Add your Astra Token for the Langflow Flow in a .env file in the same path.
 ## Usage
 
 Once the dependencies are installed, you can run the application with Streamlit:
