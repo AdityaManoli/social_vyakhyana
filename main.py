@@ -30,13 +30,13 @@ def main():
     
     message = st.text_area("Post Type", placeholder="Enter the Post Type whose analysis you want to know..")
     
-    if st.button("Run Flow"):
+    if st.button("Analyze"):
         if not message.strip():
             st.error("Please enter a message")
             return
     
         try:
-            with st.spinner("Running flow... Please be patient as this might take some time"):
+            with st.spinner("Analyzing... Please be patient as this might take some time"):
                 response = run_flow(message)
             
             response = response["outputs"][0]["outputs"][0]["results"]["message"]["text"]
